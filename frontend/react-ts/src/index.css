@@ -23,3 +23,20 @@ a:visited {
     color: unset;
     text-decoration: none;
 }
+
+a:hover {
+    color: rgba(155, 24, 100, 0.966);
+}
+
+.dsmeta-container {
+    width: 100%;
+    /* quando ocupa menor que 900px da tela ele ocupa 100% */
+    max-width: 900px;
+    margin: 0 auto;
+    /* quando maior que 900px, div alinha ao centro */
+}
+
+#sales {
+    padding: 40px 10px;
+    /* verticais e laterais */
+}
